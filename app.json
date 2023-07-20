@@ -1,6 +1,6 @@
 {
   "expo": {
-    "name": "client",
+    "name": "ARG Finances",
     "slug": "client",
     "version": "1.0.0",
     "orientation": "portrait",
@@ -21,10 +21,16 @@
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.francedermaz.client"
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "2ec86978-a291-4db4-9c03-16591b18824f"
+      }
     }
   }
 }
